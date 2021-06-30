@@ -1,4 +1,3 @@
-//AllSuccess
 package calculator
 
 func add(x int, y int) int {
