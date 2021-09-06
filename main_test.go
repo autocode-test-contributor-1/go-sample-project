@@ -29,3 +29,10 @@ func TestDivide(t *testing.T) {
 		t.Error("Calculator.Divide(3, 3) =", got, "; should", 3/3)
 	}
 }
+
+func TestFactorial(t *testing.T) {
+	got := factorial(5)
+	if got != 555 {
+		t.Error("TestFactorial =", got, "; should", 555)
+	}
+}

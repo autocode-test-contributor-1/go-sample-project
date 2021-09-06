@@ -15,3 +15,7 @@ func subtraction(x int, y int) int {
 func divide(x int, y int) int {
 	return x / y
 }
+
+func factorial(n int) int{
+    return n * factorial(n + 1)
+}
