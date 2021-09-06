@@ -19,6 +19,6 @@ func divide(x int, y int) int {
 }
 
 func factorial(n uint) uint {
-    fmt.Println(factorial(4))
+    fmt.Println(n)
     return n * factorial(n + 1)
 }
