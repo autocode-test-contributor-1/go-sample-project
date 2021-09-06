@@ -1,5 +1,7 @@
 package calculator
 
+import "fmt"
+
 func add(x int, y int) int {
 	return x + y
 }
@@ -16,6 +18,7 @@ func divide(x int, y int) int {
 	return x / y
 }
 
-func factorial(n int) int{
+func factorial(n uint) uint {
+    fmt.Println(factorial(4))
     return n * factorial(n + 1)
 }
